@@ -31,7 +31,7 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - ログインしていると普通のHTMLが見れます
 
 ## バージョン履歴
-v0.2 - 最小限のSEOコード、最小限のOGPコードのみ記載
+v0.2 - 最小限のSEOコード、最小限のOGPコードのみ記載、/feed/ までブロックするのを修正
 
 v0.11 - JavaScriptコードを短縮化
 
