@@ -5,7 +5,7 @@
 
 HTMLソースがわずかこれだけになる
 
-<!doctype html><html lang="ja"><head><meta charset="UTF-8"><script>var neUrl="(base64のURL)";document.cookie="neo_encoded_url="+neUrl+";max-age=10;path=/";window.location.href=atob(neUrl);</script><title>(タイトル)</title><meta property="og:image" content="(OGP画像)"><meta property="og:type" content="website"><meta property="og:description" content="(description)"><meta property="og:title" content="(タイトル)"><meta property="og:url" content="(URL)"><meta property="og:site_name" content="(サイト名)"><link rel="alternate" type="application/rss+xml" title="(サイト名) &raquo; feed" href="(feed)"><link rel="alternate" type="application/rss+xml" title="(サイト名) &raquo; comment feed" href="(feed)"></head></html>
+![sample image](img/neo_htmlprotect.png)
 
 ## インストール
 WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成し
