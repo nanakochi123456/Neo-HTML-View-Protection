@@ -2,6 +2,7 @@
 
 ## 特徴
 100% ChatGPT Made Code
+
 HTMLソースがわずかこれだけになる
 
  <script> document.cookie="encoded_url=Lw==;max-age=10;path=/"; var encodedUrl="Lw==",decodedUrl=atob(encodedUrl); window.location.href=decodedUrl; </script>
