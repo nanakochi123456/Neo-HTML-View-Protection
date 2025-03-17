@@ -29,6 +29,7 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - リダイレクトがアクセス毎に発生しますので、SEOを狙うコンテンツには向きません
 - OGPとかfetchによる画像取得ができない可能性があります
 - ログインしていると普通のHTMLが見れます
+- 専用のHTMLソースダウンローダーまでは対応していません
 
 ## サンプルサイト
 
