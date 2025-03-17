@@ -5,7 +5,7 @@
 
 HTMLソースがわずかこれだけになる
 
- <script> document.cookie="encoded_url=Lw==;max-age=10;path=/"; var encodedUrl="Lw==",decodedUrl=atob(encodedUrl); window.location.href=decodedUrl; </script>
+ <script>document.cookie="encoded_url=Lw==;max-age=10;path=/";var encodedUrl="Lw==",decodedUrl=atob(encodedUrl);window.location.href=decodedUrl;</script>
 
 ## インストール
 WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成し
