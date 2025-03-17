@@ -20,8 +20,8 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - cookieを削除して本来のコンテンツを表示
 
 ## 注意
--リダイレクトが発生しますので、SEOを狙うコンテンツには向きません
--OGPとかfetchによる画像取得ができない可能性があります
+- リダイレクトが発生しますので、SEOを狙うコンテンツには向きません
+- OGPとかfetchによる画像取得ができない可能性があります
 
 ## バージョン履歴
 v0.11 - JavaScriptコードを短縮化
