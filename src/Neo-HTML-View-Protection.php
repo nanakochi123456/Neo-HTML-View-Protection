@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Neo HTML View Protection
  * Description: view-source: でもHTMLをわずか数文字にする
- * Version: 0.1
+ * Version: 0.11
  * Author: Nano Yozakura
  * License: GPL2
  */
@@ -17,11 +17,7 @@ function pgv_set_cookie_and_redirect() {
 
     // JavaScriptでエンコードされたURLをデコードしてリダイレクトするスクリプトを挿入
     echo '
-    <script>
-        document.cookie="encoded_url=' . $encoded_url . ';max-age=10;path=/";
-        var encodedUrl="' . $encoded_url . '",decodedUrl=atob(encodedUrl);
-        window.location.href=decodedUrl;
-    </script>';
+<script>document.cookie="encoded_url=' . $encoded_url . ';max-age=10;path=/";var encodedUrl="' . $encoded_url . '",decodedUrl=atob(encodedUrl);window.location.href=decodedUrl;</script>';
     exit;
 }
 
