@@ -5,7 +5,7 @@
 
 HTMLソースがわずかこれだけになる
 
- <script>document.cookie="encoded_url=Lw==;max-age=10;path=/";var encodedUrl="Lw==",decodedUrl=atob(encodedUrl);window.location.href=decodedUrl;</script>
+<!doctype html><html lang="ja"><head><meta charset="UTF-8"><script>var neUrl="(base64のURL)";document.cookie="neo_encoded_url="+neUrl+";max-age=10;path=/";window.location.href=atob(neUrl);</script><title>(タイトル)</title><meta property="og:image" content="(OGP画像)"><meta property="og:type" content="website"><meta property="og:description" content="(description)"><meta property="og:title" content="(タイトル)"><meta property="og:url" content="(URL)"><meta property="og:site_name" content="(サイト名)"><link rel="alternate" type="application/rss+xml" title="(サイト名) &raquo; feed" href="(feed)"><link rel="alternate" type="application/rss+xml" title="(サイト名) &raquo; comment feed" href="(feed)"></head></html>
 
 ## インストール
 WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成し
@@ -26,6 +26,8 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - ログインしていると普通のHTMLが見れます
 
 ## バージョン履歴
+v0.2 - 最小限のSEOコード、最小限のOGPコードのみ記載
+
 v0.11 - JavaScriptコードを短縮化
 
 v0.1 - 初版
