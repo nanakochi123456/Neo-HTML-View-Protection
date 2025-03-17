@@ -34,6 +34,12 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 
 https://blog.773.moe/
 
+Control+Uとかでソースを見ようとすると別のプラグインが反応します
+
+https://github.com/nanakochi123456/Neo-Copykey-Alert
+
+view-source: で確認してみてください
+
 ## バージョン履歴
 v0.2 - 最小限のSEOコード、最小限のOGPコードのみ記載、/feed/ までブロックするのを修正
 
