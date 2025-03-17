@@ -19,6 +19,11 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - JavaScriptで現在のURLをBase64にして10秒有効のcookieに保存してLocation
 - cookieを削除して本来のコンテンツを表示
 
+## 効能
+- Wordpressであることがばれにくい (wp-contentとかでばれるかもしれない）
+-- 注：/wp-login.php とか /wp-admin/ を外部からdenyすれば更に効果が高い
+- HTMLが見れないから何のプラグインを使用してるか判別しずらい
+
 ## 注意
 - 【重要】キャッシュ系プラグインが動作していると動きません
 - リダイレクトがアクセス毎に発生しますので、SEOを狙うコンテンツには向きません
