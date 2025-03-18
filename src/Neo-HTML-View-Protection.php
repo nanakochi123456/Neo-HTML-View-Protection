@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Neo HTML View Protection
  * Description: view-source: でもHTMLをわずか数文字にする
- * Version: 0.2
+ * Version: 0.21
  * Author: Nano Yozakura
  * License: GPL2
  */
@@ -46,7 +46,7 @@ function pgv_set_cookie_and_redirect() {
     }
 
     $html .= '<meta property="og:type" content="website">';
-    $html .= '<meta property="og:description" content="' . $meta_description . '">';
+    $html .= '<meta property="og:description" content="' . get_bloginfo('description') . '">';
     $html .= '<meta property="og:title" content="' . $title . '">';
     $html .= '<meta property="og:url" content="' . $current_url . '">';
     $html .= '<meta property="og:site_name" content="' . get_bloginfo('name') . '">';
@@ -81,8 +81,10 @@ function pgv_redirect_from_cookie() {
 // クッキーがあるか確認してリダイレクトする
 function pgv_check_and_redirect() {
     if(!is_user_logged_in()) {
-        // RSSでないこと
-        if(strpos($_SERVER['REQUEST_URI'], '/feed/') === false) {
+        // RSSでないこと、POSTでないこと、コメントの時でないこと
+        if(strpos($_SERVER['REQUEST_URI'], '/feed/') === false
+        || $_SERVER['REQUEST_METHOD'] !== 'POST'
+        || !empty($_GET['unapproved']) || !empty($_GET['moderation-hash'])) {
             // クッキーがセットされている場合、リダイレクト処理を実行
             if (isset($_COOKIE['neo_encoded_url'])) {
                 pgv_redirect_from_cookie();

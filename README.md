@@ -42,6 +42,8 @@ https://github.com/nanakochi123456/Neo-Copykey-Alert
 view-source: で確認してみてください
 
 ## バージョン履歴
+v0.21 - コメントされた時にHTMLがうまく表示されないことを修正（無効化）
+
 v0.2 - 最小限のSEOコード、最小限のOGPコードのみ記載、/feed/ までブロックするのを修正
 
 v0.11 - JavaScriptコードを短縮化
