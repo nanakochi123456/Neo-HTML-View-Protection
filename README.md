@@ -21,7 +21,7 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 
 ## 効能
 - Wordpressであることがばれにくい (wp-contentとかでばれるかもしれない）
--- 注：/wp-login.php とか /wp-admin/ を外部からdenyすれば更に効果が高い
+- 注：/wp-login.php とか /wp-admin/ を外部からdenyすれば更に効果が高い
 - HTMLが見れないから何のプラグインを使用してるか判別しずらい
 
 ## 注意
