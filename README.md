@@ -7,6 +7,8 @@ HTMLソースがわずかこれだけになる
 
 ![sample image](img/neo_htmlprotect.png)
 
+何らかの方法で強引にソース表示できるが、抑止にはちょうどいい、強制的に警告サイトにリダイレクトする（利用規約でも可）
+
 ## インストール
 WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成し
 その中にsrc配下のファイルをすべて入れて有効化
@@ -16,7 +18,7 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 
 ## 仕組み
 - HTTPアクセス
-- JavaScriptで現在のURLをBase64にして10秒有効のcookieに保存してLocation
+- JavaScriptで現在のURLをBase64にして9秒有効のcookieに保存してLocation
 - cookieを削除して本来のコンテンツを表示
 
 ## 効能
@@ -29,7 +31,7 @@ WPROOT/wp-content/plugins/Neo-HTML-View-Protection ディレクトリを作成�
 - リダイレクトがアクセス毎に発生しますので、SEOを狙うコンテンツには向きません
 - OGPとかfetchによる画像取得ができない可能性があります
 - ログインしていると普通のHTMLが見れます
-- 専用のHTMLソースダウンローダーまでは対応していません
+- 専用のHTMLソースダウンローダーまでは対応していません、あくまで抑止としてご利用下さい
 
 ## サンプルサイト
 
