@@ -42,6 +42,8 @@ https://github.com/nanakochi123456/Neo-Copykey-Alert
 view-source: で確認してみてください
 
 ## バージョン履歴
+v0.23 - わずかなJavaScript圧縮
+
 v0.22 - cookie名をUNIXTIMEから生成した毎分リフレッシュしたものにして、少しセキュリティーを高くした、あわせて10秒ではなく9秒にした
 
 v0.21 - コメントされた時にHTMLがうまく表示されないことを修正（無効化）

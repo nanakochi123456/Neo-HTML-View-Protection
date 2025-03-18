@@ -7,6 +7,10 @@
  * License: GPL2
  */
 
+if (!defined('ABSPATH')) {
+    exit;
+}
+
 // 9秒のクッキーを発行してエンコードされたURLを保存
 function nhvp_set_cookie_and_redirect() {
     // 現在のURLを取得
@@ -38,7 +42,7 @@ function nhvp_set_cookie_and_redirect() {
     $html .= '<script>';
     $html .= 'var neUrl="' . $neo_encoded_url . '";';
     $html .= 'document.cookie="' . $cookie_name . '="+neUrl+";max-age=9;path=/";';
-    $html .= 'window.location.href=atob(neUrl);';
+    $html .= 'location.href=atob(neUrl);';
     $html .= '</script>';
     $html .= '<title>' . $title . '</title>';
 
